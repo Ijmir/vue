@@ -6,11 +6,6 @@
   "module": "dist/vue.runtime.esm.js",
   "unpkg": "dist/vue.js",
   "typings": "types/index.d.ts",
-  "files": [
-    "src",
-    "dist/*.js",
-    "types/*.d.ts"
-  ],
   "scripts": {
     "dev": "rollup -w -c build/config.js --environment TARGET:web-full-dev",
     "dev:cjs": "rollup -w -c build/config.js --environment TARGET:web-runtime-cjs",
